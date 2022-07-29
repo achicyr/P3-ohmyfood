@@ -1,0 +1,8 @@
+body {
+  background-color: green;
+}
+body > header > h1 {
+  color: red;
+}
+
+/*# sourceMappingURL=index.css.map */
