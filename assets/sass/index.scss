@@ -6,6 +6,21 @@
 /***********************************/
 
 
+$primary: #9356DC;
+$police1: 'Roboto', sans-serif;
+body{background-color: $primary;font-family: $police1;
+  &>header{}
+  &>nav{}
+  &>main{
+    &>section{}
+    &>article{}
+  }
+  &>footer{
+    &>ul{}
+  }
+}
+
+
 
 @media all and (max-width:$mobile){
   body{
